@@ -19,4 +19,4 @@ services:
             - '${PORT}:${PORT}'
         volumes:
             - ~/.flowise:/root/.flowise
-        command: /bin/sh -c "sleep 3; flowise-test start"
+        command: /bin/sh -c "sleep 3; flowise start"
