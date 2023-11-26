@@ -25,4 +25,4 @@ ENV PORT=80
 EXPOSE ${PORT}
 
 # Start the application with a delay
-CMD /bin/sh -c "sleep 3; flowise-test start"
+CMD /bin/sh -c "sleep 3; flowise start"
